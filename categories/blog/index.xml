@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Git on 읽기전용</title>
-    <link>https://r34d02ly.github.io/tags/git/</link>
-    <description>Recent content in Git on 읽기전용</description>
+    <title>Blog on 읽기전용</title>
+    <link>https://r34d02ly.github.io/categories/blog/</link>
+    <description>Recent content in Blog on 읽기전용</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="https://r34d02ly.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://r34d02ly.github.io/categories/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>깃허브 블로그 생성</title>
       <link>https://r34d02ly.github.io/posts/creating-a-new-theme/</link>

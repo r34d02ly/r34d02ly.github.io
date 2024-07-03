@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="삽질#깃허브로 블로그를 만들어보자! 했는데 지킬은 싫고 다른거 뭐 없나 찾아보다가 휴고로 진행하게 됨
+<meta name="description" content="삽질#깃허브로 블로그를 만들어보자! 했는데 지킬은 싫고, 다른거 뭐 없나 찾아보다가 휴고로 진행하게 됨
 찾아보니까 빠르다고 함
 휴고를 설치하고 사이트를 생성함
 빠름
@@ -16,7 +16,7 @@
 <meta name="color-scheme" content="light dark"><meta property="og:url" content="https://r34d02ly.github.io/posts/creating-a-new-theme/">
   <meta property="og:site_name" content="읽기전용">
   <meta property="og:title" content="깃허브 블로그 생성">
-  <meta property="og:description" content="삽질#깃허브로 블로그를 만들어보자! 했는데 지킬은 싫고 다른거 뭐 없나 찾아보다가 휴고로 진행하게 됨
+  <meta property="og:description" content="삽질#깃허브로 블로그를 만들어보자! 했는데 지킬은 싫고, 다른거 뭐 없나 찾아보다가 휴고로 진행하게 됨
 찾아보니까 빠르다고 함
 휴고를 설치하고 사이트를 생성함
 빠름
@@ -32,14 +32,13 @@
     <meta property="article:tag" content="Github">
     <meta property="article:tag" content="Hugo">
     <meta property="article:tag" content="Book Theme">
-    <meta property="article:tag" content="Blog">
 <title>깃허브 블로그 생성 | 읽기전용</title>
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" >
 <link rel="canonical" href="https://r34d02ly.github.io/posts/creating-a-new-theme/">
 <link rel="stylesheet" href="/book.min.309b7ed028807cdb68d8d61e26d609f48369c098dbf5e4d8c0dcf4cdf49feafc.css" integrity="sha256-MJt&#43;0CiAfNto2NYeJtYJ9INpwJjb9eTYwNz0zfSf6vw=" crossorigin="anonymous">
   <script defer src="/fuse.min.js"></script>
-  <script defer src="/en.search.min.305581a721f748a2ba66b1913a032880ee4352329ba5828cd71c3adba7b815b3.js" integrity="sha256-MFWBpyH3SKK6ZrGROgMogO5DUjKbpYKM1xw626e4FbM=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.787608bf78af7fb2e8ad44decfa9e9609da66612793a5c5e8c2d07c25a1d2883.js" integrity="sha256-eHYIv3ivf7LorUTez6npYJ2mZhJ5OlxejC0HwlodKIM=" crossorigin="anonymous"></script>
 
   <script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" integrity="sha256-b2&#43;Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC&#43;NdcPIvZhzk=" crossorigin="anonymous"></script>
 
@@ -163,6 +162,19 @@ https://github.com/alex-shpak/hugo-book
     <li>
       <ul>
         <li><a href="#삽질">삽질</a></li>
+        <li><a href="#진행순서-정리">진행순서 정리</a>
+          <ul>
+            <li><a href="#콘텐츠-설정파일-관리---여기에서-작업한-내용을-github에-푸시하는-것">콘텐츠, 설정파일 관리 - 여기에서 작업한 내용을 GitHub에 푸시하는 것</a></li>
+            <li><a href="#테마-추가">테마 추가</a></li>
+            <li><a href="#설정">설정</a></li>
+            <li><a href="#로컬서버에서-확인">로컬서버에서 확인</a></li>
+            <li><a href="#휴고-빌드">휴고 빌드</a></li>
+            <li><a href="#public배포">public배포</a></li>
+            <li><a href="#마스터-브랜치-푸시">마스터 브랜치 푸시</a></li>
+            <li><a href="#메모-파워셸에서-폴더-삭제">(메모) 파워셸에서 폴더 삭제</a></li>
+            <li><a href="#메모-hugo-빌드-캐시-초기화">(메모) hugo 빌드 캐시 초기화</a></li>
+          </ul>
+        </li>
       </ul>
     </li>
   </ul>
@@ -187,7 +199,7 @@ https://github.com/alex-shpak/hugo-book
   
   <div>
     
-      <a href="/categories/github-blog/">Github Blog</a>
+      <a href="/categories/blog/">Blog</a>
   </div>
   
 
@@ -197,19 +209,20 @@ https://github.com/alex-shpak/hugo-book
       <a href="/tags/git/">Git</a>, 
       <a href="/tags/github/">Github</a>, 
       <a href="/tags/hugo/">Hugo</a>, 
-      <a href="/tags/book-theme/">Book Theme</a>, 
-      <a href="/tags/blog/">Blog</a>
+      <a href="/tags/book-theme/">Book Theme</a>
   </div>
   
 
 
 
+<br/>
+<hr>
+<br/>
 <h2 id="삽질">
   삽질
   <a class="anchor" href="#%ec%82%bd%ec%a7%88">#</a>
 </h2>
-<p>깃허브로 블로그를 만들어보자! 했는데 지킬은 싫고 <br>
-다른거 뭐 없나 찾아보다가 휴고로 진행하게 됨</p>
+<p>깃허브로 블로그를 만들어보자! 했는데 지킬은 싫고, 다른거 뭐 없나 찾아보다가 휴고로 진행하게 됨</p>
 <p>찾아보니까 빠르다고 함</p>
 <p>휴고를 설치하고 사이트를 생성함</p>
 <p>빠름</p>
@@ -220,6 +233,95 @@ https://github.com/alex-shpak/hugo-book
 <p>샘플 사이트 따다가 얼추얼추 메뉴 생성까지는 했는데 포스팅하는 글이 자꾸 메뉴에 붙음&hellip;하ㅋㅋㅋㅋ</p>
 <p>일단은 지금 진행하는 프로젝트가 있으니까 여기에 너무 시간을 쏟을 수 없으므로 오늘은 여기까지만 진행하기로 함.</p>
 <p>깃허브 블로그의 세계 신선하다.</p>
+<br/>
+<hr>
+<br/>
+<h2 id="진행순서-정리">
+  진행순서 정리
+  <a class="anchor" href="#%ec%a7%84%ed%96%89%ec%88%9c%ec%84%9c-%ec%a0%95%eb%a6%ac">#</a>
+</h2>
+<br/>
+<h3 id="콘텐츠-설정파일-관리---여기에서-작업한-내용을-github에-푸시하는-것">
+  콘텐츠, 설정파일 관리 - 여기에서 작업한 내용을 GitHub에 푸시하는 것
+  <a class="anchor" href="#%ec%bd%98%ed%85%90%ec%b8%a0-%ec%84%a4%ec%a0%95%ed%8c%8c%ec%9d%bc-%ea%b4%80%eb%a6%ac---%ec%97%ac%ea%b8%b0%ec%97%90%ec%84%9c-%ec%9e%91%ec%97%85%ed%95%9c-%eb%82%b4%ec%9a%a9%ec%9d%84-github%ec%97%90-%ed%91%b8%ec%8b%9c%ed%95%98%eb%8a%94-%ea%b2%83">#</a>
+</h3>
+<pre><code>hugo new site blog
+cd E:\blog
+git init
+git add .
+git commit -m &quot;Initial commit&quot;
+git remote add origin https://github.com/r34d02ly/r34d02ly.github.io.git
+</code></pre>
+<br/>
+<h3 id="테마-추가">
+  테마 추가
+  <a class="anchor" href="#%ed%85%8c%eb%a7%88-%ec%b6%94%ea%b0%80">#</a>
+</h3>
+<pre><code>git submodule add https://github.com/alex-shpak/hugo-book themes/hugo-book
+</code></pre>
+<br/>
+<h3 id="설정">
+  설정
+  <a class="anchor" href="#%ec%84%a4%ec%a0%95">#</a>
+</h3>
+<ul>
+<li>hugo.toml 파일 편집</li>
+</ul>
+<br/>
+<h3 id="로컬서버에서-확인">
+  로컬서버에서 확인
+  <a class="anchor" href="#%eb%a1%9c%ec%bb%ac%ec%84%9c%eb%b2%84%ec%97%90%ec%84%9c-%ed%99%95%ec%9d%b8">#</a>
+</h3>
+<pre><code>hugo server -D
+</code></pre>
+<br/>
+<h3 id="휴고-빌드">
+  휴고 빌드
+  <a class="anchor" href="#%ed%9c%b4%ea%b3%a0-%eb%b9%8c%eb%93%9c">#</a>
+</h3>
+<pre><code>hugo
+</code></pre>
+<br/>
+<h3 id="public배포">
+  public배포
+  <a class="anchor" href="#public%eb%b0%b0%ed%8f%ac">#</a>
+</h3>
+<p>public폴더를 gh-pages브랜치로 푸시<br>
+Hugo가 사이트를 빌드한 후 생성된 정적 파일들이 위치한 폴더<br>
+gh-pages 브랜치로 푸시하여 GitHub Pages에서 호스팅</p>
+<pre><code>cd public
+git init
+git add -A
+git commit -m &quot;Deploy to GitHub Pages&quot;
+git branch -M gh-pages
+git remote add origin https://github.com/r34d02ly/r34d02ly.github.io.git  (처음에만)
+git push -u origin gh-pages --force
+</code></pre>
+<br/>
+<h3 id="마스터-브랜치-푸시">
+  마스터 브랜치 푸시
+  <a class="anchor" href="#%eb%a7%88%ec%8a%a4%ed%84%b0-%eb%b8%8c%eb%9e%9c%ec%b9%98-%ed%91%b8%ec%8b%9c">#</a>
+</h3>
+<pre><code>cd ..
+git add .
+git commit -m 'Update'
+git push -u origin master
+</code></pre>
+<br/>
+<h3 id="메모-파워셸에서-폴더-삭제">
+  (메모) 파워셸에서 폴더 삭제
+  <a class="anchor" href="#%eb%a9%94%eb%aa%a8-%ed%8c%8c%ec%9b%8c%ec%85%b8%ec%97%90%ec%84%9c-%ed%8f%b4%eb%8d%94-%ec%82%ad%ec%a0%9c">#</a>
+</h3>
+<pre><code>Remove-Item -Recurse -Force E:\blog
+Remove-Item -Recurse -Force .git
+</code></pre>
+<br/>
+<h3 id="메모-hugo-빌드-캐시-초기화">
+  (메모) hugo 빌드 캐시 초기화
+  <a class="anchor" href="#%eb%a9%94%eb%aa%a8-hugo-%eb%b9%8c%eb%93%9c-%ec%ba%90%ec%8b%9c-%ec%b4%88%ea%b8%b0%ed%99%94">#</a>
+</h3>
+<pre><code>hugo --cleanDestinationDir
+</code></pre>
 </article>
  
       
@@ -270,6 +372,19 @@ https://github.com/alex-shpak/hugo-book
     <li>
       <ul>
         <li><a href="#삽질">삽질</a></li>
+        <li><a href="#진행순서-정리">진행순서 정리</a>
+          <ul>
+            <li><a href="#콘텐츠-설정파일-관리---여기에서-작업한-내용을-github에-푸시하는-것">콘텐츠, 설정파일 관리 - 여기에서 작업한 내용을 GitHub에 푸시하는 것</a></li>
+            <li><a href="#테마-추가">테마 추가</a></li>
+            <li><a href="#설정">설정</a></li>
+            <li><a href="#로컬서버에서-확인">로컬서버에서 확인</a></li>
+            <li><a href="#휴고-빌드">휴고 빌드</a></li>
+            <li><a href="#public배포">public배포</a></li>
+            <li><a href="#마스터-브랜치-푸시">마스터 브랜치 푸시</a></li>
+            <li><a href="#메모-파워셸에서-폴더-삭제">(메모) 파워셸에서 폴더 삭제</a></li>
+            <li><a href="#메모-hugo-빌드-캐시-초기화">(메모) hugo 빌드 캐시 초기화</a></li>
+          </ul>
+        </li>
       </ul>
     </li>
   </ul>

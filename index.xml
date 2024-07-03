@@ -12,7 +12,14 @@
       <link>https://r34d02ly.github.io/posts/creating-a-new-theme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://r34d02ly.github.io/posts/creating-a-new-theme/</guid>
-      <description>삽질&#xD;#&#xD;깃허브로 블로그를 만들어보자! 했는데 지킬은 싫고 다른거 뭐 없나 찾아보다가 휴고로 진행하게 됨&#xA;찾아보니까 빠르다고 함&#xA;휴고를 설치하고 사이트를 생성함&#xA;빠름&#xA;테마는 뭘로 할까 해서 book테마로 정함&#xA;테마를 지정하는것 까지는 금방이었는데 내가 원하는대로 메뉴에 표시가 잘 안됨&#xA;예를 들면 메뉴에는 카테고리 별 메뉴들만 나오고, 각 메뉴를 클릭하면 글 목록이 보이거나 최신글이 나왔으면 좋겠음&#xA;메뉴 관련해서 뭔가 지정하는 방식이 3가지인것 같고 gpt에서는 자꾸 이제 지원하지 않는 방식으로 알려줌</description>
+      <description>삽질&#xD;#&#xD;깃허브로 블로그를 만들어보자! 했는데 지킬은 싫고, 다른거 뭐 없나 찾아보다가 휴고로 진행하게 됨&#xA;찾아보니까 빠르다고 함&#xA;휴고를 설치하고 사이트를 생성함&#xA;빠름&#xA;테마는 뭘로 할까 해서 book테마로 정함&#xA;테마를 지정하는것 까지는 금방이었는데 내가 원하는대로 메뉴에 표시가 잘 안됨&#xA;예를 들면 메뉴에는 카테고리 별 메뉴들만 나오고, 각 메뉴를 클릭하면 글 목록이 보이거나 최신글이 나왔으면 좋겠음&#xA;메뉴 관련해서 뭔가 지정하는 방식이 3가지인것 같고 gpt에서는 자꾸 이제 지원하지 않는 방식으로 알려줌</description>
+    </item>
+    <item>
+      <title>냥냥학당 개발일지 2024.07.03</title>
+      <link>https://r34d02ly.github.io/posts/%EB%83%A5%EB%83%A5%ED%95%99%EB%8B%B9240703/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://r34d02ly.github.io/posts/%EB%83%A5%EB%83%A5%ED%95%99%EB%8B%B9240703/</guid>
+      <description>&#xD;To do List&#xD;#&#xD;기획 앱 진행 보완 디자인 앱 진행 보완에 맞추어 디자인 변경 DB 작업 ERD 작성 SQL문 작성 테이블 생성 및 기초데이터 입력 API 작업 DB 연결(내일로 연기) CRUD 기능 작성 및 확인(내일로 연기) 작업 내역&#xD;#&#xD;앱 진행 보완&#xD;#&#xD;앱 진행 보완에 맞추어 디자인 변경&#xD;#&#xD;ERD 작성&#xD;#&#xD;SQL문 작성&#xD;#&#xD;테이블 생성 및 기초데이터 입력&#xD;#&#xD;트러블슈팅 #1&#xD;#&#xD;문제 상황&#xD;#&#xD;원인 추론&#xD;#&#xD;해결 방안&#xD;#&#xD;결과 확인&#xD;#&#xD;</description>
     </item>
   </channel>
 </rss>
