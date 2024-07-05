@@ -6,8 +6,15 @@
     <description>Recent content in PostgreSQL on 읽기전용</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 04 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/PostgreSQL/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>냥냥학당 개발일지 2024.07.05</title>
+      <link>http://localhost:1313/posts/%EB%83%A5%EB%83%A5%ED%95%99%EB%8B%B9240705/</link>
+      <pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/%EB%83%A5%EB%83%A5%ED%95%99%EB%8B%B9240705/</guid>
+      <description>&#xD;To do List&#xD;#&#xD;기획 로그인, 회원가입, 탈퇴 정책 보완 v DB 작업 ERD 작성 SQL문 작성 테이블 생성 및 기초데이터 입력 API 작업 DB 연결 CRUD 기능 작성 및 확인 작업 내역&#xD;#&#xD;앱 진행 보완&#xD;#&#xD;앱 진행 보완에 맞추어 디자인 변경&#xD;#&#xD;ERD 작성&#xD;#&#xD;SQL문 작성&#xD;#&#xD;테이블 생성 및 기초데이터 입력&#xD;#&#xD;트러블슈팅 #1&#xD;#&#xD;문제 상황&#xD;#&#xD;원인 추론&#xD;#&#xD;해결 방안&#xD;#&#xD;결과 확인&#xD;#&#xD;</description>
+    </item>
     <item>
       <title>냥냥학당 개발일지 2024.07.04</title>
       <link>http://localhost:1313/posts/%EB%83%A5%EB%83%A5%ED%95%99%EB%8B%B9240704/</link>
