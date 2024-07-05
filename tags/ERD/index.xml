@@ -2,17 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ERD on 읽기전용</title>
-    <link>https://r34d02ly.github.io/tags/ERD/</link>
+    <link>http://localhost:1313/tags/ERD/</link>
     <description>Recent content in ERD on 읽기전용</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="https://r34d02ly.github.io/tags/ERD/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ERD/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>냥냥학당 개발일지 2024.07.03</title>
-      <link>https://r34d02ly.github.io/posts/%EB%83%A5%EB%83%A5%ED%95%99%EB%8B%B9240703/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://r34d02ly.github.io/posts/%EB%83%A5%EB%83%A5%ED%95%99%EB%8B%B9240703/</guid>
-      <description>&#xD;To do List&#xD;#&#xD;기획 앱 진행 보완 디자인 앱 진행 보완에 맞추어 디자인 변경 DB 작업 ERD 작성 SQL문 작성 테이블 생성 및 기초데이터 입력 API 작업 DB 연결(내일로 연기) CRUD 기능 작성 및 확인(내일로 연기) 작업 내역&#xD;#&#xD;앱 진행 보완&#xD;#&#xD;앱 진행 보완에 맞추어 디자인 변경&#xD;#&#xD;ERD 작성&#xD;#&#xD;SQL문 작성&#xD;#&#xD;테이블 생성 및 기초데이터 입력&#xD;#&#xD;트러블슈팅 #1&#xD;#&#xD;문제 상황&#xD;#&#xD;원인 추론&#xD;#&#xD;해결 방안&#xD;#&#xD;결과 확인&#xD;#&#xD;</description>
+      <title>냥냥학당 개발일지 2024.07.04</title>
+      <link>http://localhost:1313/posts/%EB%83%A5%EB%83%A5%ED%95%99%EB%8B%B9240704/</link>
+      <pubDate>Thu, 04 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/%EB%83%A5%EB%83%A5%ED%95%99%EB%8B%B9240704/</guid>
+      <description>&#xD;To do List&#xD;#&#xD;기획 프로젝트 기획 FIX v 디자인 기획 보완에 맞추어 디자인 변경 v DB 작업 ERD 작성 v SQL문 작성 v 테이블 생성 및 기초데이터 입력 (내일로 연기) API 작업 DB 연결(내일로 연기) CRUD 기능 작성 및 확인(내일로 연기) 작업 내역&#xD;#&#xD;프로젝트 기획 FIX&#xD;#&#xD;문서화 작업 컨셉, 기능 등을 문서화 앱 진행 보완에 맞추어 디자인 변경&#xD;#&#xD;화면 구성 작업 요소들의 구성을 재배치 ERD 작성(진행중)&#xD;#&#xD;기능정의에 맞는 ERD 작성(진행중) 개체관계도 작성(진행중) 테이블 정의서 작성(진행중) SQL문 작성(진행중)&#xD;#&#xD;테이블 정의서에 맞는 SQL문 정리 </description>
     </item>
   </channel>
 </rss>

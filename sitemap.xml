@@ -2,46 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://r34d02ly.github.io/categories/blog/</loc>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2024-07-03T09:14:00-23:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-07-03T09:14:00-23:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%EA%B8%B0%ED%9A%8D/</loc>
+    <lastmod>2024-07-03T09:14:00-23:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/%EB%83%A5%EB%83%A5%ED%95%99%EB%8B%B9/</loc>
+    <lastmod>2024-07-03T09:14:00-23:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/%EB%83%A5%EB%83%A5%ED%95%99%EB%8B%B9240703/</loc>
+    <lastmod>2024-07-03T09:14:00-23:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%EB%94%94%EC%9E%90%EC%9D%B8/</loc>
+    <lastmod>2024-07-03T09:14:00-23:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/blog/</loc>
     <lastmod>2024-07-03T12:20:43+09:00</lastmod>
   </url><url>
-    <loc>https://r34d02ly.github.io/tags/book-theme/</loc>
+    <loc>http://localhost:1313/tags/book-theme/</loc>
     <lastmod>2024-07-03T12:20:43+09:00</lastmod>
   </url><url>
-    <loc>https://r34d02ly.github.io/categories/</loc>
+    <loc>http://localhost:1313/tags/git/</loc>
     <lastmod>2024-07-03T12:20:43+09:00</lastmod>
   </url><url>
-    <loc>https://r34d02ly.github.io/tags/ERD/</loc>
-  </url><url>
-    <loc>https://r34d02ly.github.io/tags/git/</loc>
+    <loc>http://localhost:1313/tags/github/</loc>
     <lastmod>2024-07-03T12:20:43+09:00</lastmod>
   </url><url>
-    <loc>https://r34d02ly.github.io/tags/github/</loc>
+    <loc>http://localhost:1313/tags/hugo/</loc>
     <lastmod>2024-07-03T12:20:43+09:00</lastmod>
   </url><url>
-    <loc>https://r34d02ly.github.io/tags/hugo/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2024-07-03T12:20:43+09:00</lastmod>
   </url><url>
-    <loc>https://r34d02ly.github.io/tags/PostgreSQL/</loc>
-  </url><url>
-    <loc>https://r34d02ly.github.io/tags/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2024-07-03T12:20:43+09:00</lastmod>
   </url><url>
-    <loc>https://r34d02ly.github.io/</loc>
+    <loc>http://localhost:1313/posts/creating-a-new-theme/</loc>
     <lastmod>2024-07-03T12:20:43+09:00</lastmod>
-  </url><url>
-    <loc>https://r34d02ly.github.io/posts/</loc>
-    <lastmod>2024-07-03T12:20:43+09:00</lastmod>
-  </url><url>
-    <loc>https://r34d02ly.github.io/tags/%EA%B8%B0%ED%9A%8D/</loc>
-  </url><url>
-    <loc>https://r34d02ly.github.io/posts/creating-a-new-theme/</loc>
-    <lastmod>2024-07-03T12:20:43+09:00</lastmod>
-  </url><url>
-    <loc>https://r34d02ly.github.io/categories/%EB%83%A5%EB%83%A5%ED%95%99%EB%8B%B9/</loc>
-  </url><url>
-    <loc>https://r34d02ly.github.io/posts/%EB%83%A5%EB%83%A5%ED%95%99%EB%8B%B9240703/</loc>
-  </url><url>
-    <loc>https://r34d02ly.github.io/tags/%EB%94%94%EC%9E%90%EC%9D%B8/</loc>
   </url>
 </urlset>

@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on 읽기전용</title>
-    <link>https://r34d02ly.github.io/tags/hugo/</link>
+    <link>http://localhost:1313/tags/hugo/</link>
     <description>Recent content in Hugo on 읽기전용</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="https://r34d02ly.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>깃허브 블로그 생성</title>
-      <link>https://r34d02ly.github.io/posts/creating-a-new-theme/</link>
+      <link>http://localhost:1313/posts/creating-a-new-theme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://r34d02ly.github.io/posts/creating-a-new-theme/</guid>
+      <guid>http://localhost:1313/posts/creating-a-new-theme/</guid>
       <description>삽질&#xD;#&#xD;깃허브로 블로그를 만들어보자! 했는데 지킬은 싫고, 다른거 뭐 없나 찾아보다가 휴고로 진행하게 됨&#xA;찾아보니까 빠르다고 함&#xA;휴고를 설치하고 사이트를 생성함&#xA;빠름&#xA;테마는 뭘로 할까 해서 book테마로 정함&#xA;테마를 지정하는것 까지는 금방이었는데 내가 원하는대로 메뉴에 표시가 잘 안됨&#xA;예를 들면 메뉴에는 카테고리 별 메뉴들만 나오고, 각 메뉴를 클릭하면 글 목록이 보이거나 최신글이 나왔으면 좋겠음&#xA;메뉴 관련해서 뭔가 지정하는 방식이 3가지인것 같고 gpt에서는 자꾸 이제 지원하지 않는 방식으로 알려줌</description>
     </item>
   </channel>

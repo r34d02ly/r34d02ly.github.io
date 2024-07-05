@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="To do List#기획 프로젝트 기획 FIX v 디자인 기획 보완에 맞추어 디자인 변경 v DB 작업 ERD 작성 v SQL문 작성 v 테이블 생성 및 기초데이터 입력 (내일로 연기) API 작업 DB 연결(내일로 연기) CRUD 기능 작성 및 확인(내일로 연기) 작업 내역#프로젝트 기획 FIX#문서화 작업 컨셉, 기능 등을 문서화 앱 진행 보완에 맞추어 디자인 변경#화면 구성 작업 요소들의 구성을 재배치 ERD 작성(진행중)#기능정의에 맞는 ERD 작성(진행중) 개체관계도 작성(진행중) 테이블 정의서 작성(진행중) SQL문 작성(진행중)#테이블 정의서에 맞는 SQL문 정리 ">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/posts/%EB%83%A5%EB%83%A5%ED%95%99%EB%8B%B9240704/">
+  <meta property="og:site_name" content="읽기전용">
+  <meta property="og:title" content="냥냥학당 개발일지 2024.07.04">
+  <meta property="og:description" content="To do List#기획 프로젝트 기획 FIX v 디자인 기획 보완에 맞추어 디자인 변경 v DB 작업 ERD 작성 v SQL문 작성 v 테이블 생성 및 기초데이터 입력 (내일로 연기) API 작업 DB 연결(내일로 연기) CRUD 기능 작성 및 확인(내일로 연기) 작업 내역#프로젝트 기획 FIX#문서화 작업 컨셉, 기능 등을 문서화 앱 진행 보완에 맞추어 디자인 변경#화면 구성 작업 요소들의 구성을 재배치 ERD 작성(진행중)#기능정의에 맞는 ERD 작성(진행중) 개체관계도 작성(진행중) 테이블 정의서 작성(진행중) SQL문 작성(진행중)#테이블 정의서에 맞는 SQL문 정리 ">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-07-04T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-07-04T00:00:00+00:00">
+    <meta property="article:tag" content="기획">
+    <meta property="article:tag" content="디자인">
+    <meta property="article:tag" content="ERD">
+    <meta property="article:tag" content="PostgreSQL">
+<title>냥냥학당 개발일지 2024.07.04 | 읽기전용</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" >
+<link rel="canonical" href="http://localhost:1313/posts/%EB%83%A5%EB%83%A5%ED%95%99%EB%8B%B9240704/">
+<link rel="stylesheet" href="/book.min.309b7ed028807cdb68d8d61e26d609f48369c098dbf5e4d8c0dcf4cdf49feafc.css" integrity="sha256-MJt&#43;0CiAfNto2NYeJtYJ9INpwJjb9eTYwNz0zfSf6vw=" crossorigin="anonymous">
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/en.search.min.6311ff4f2f4998c97baea02e2b3c6db338e3ada27224fc7c8c50b65ea6d224f1.js" integrity="sha256-YxH/Ty9JmMl7rqAuKzxtszjjraJyJPx8jFC2XqbSJPE=" crossorigin="anonymous"></script>
+
+  <script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" integrity="sha256-b2&#43;Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC&#43;NdcPIvZhzk=" crossorigin="anonymous"></script>
+
+  
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>읽기전용</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="/posts/"  >
+        개발일지
+      </a>
+  </li>
+  
+  <li>
+    <a href="https://github.com/r34d02ly"  target="_blank" rel="noopener">
+        Github
+      </a>
+  </li>
+  
+  <li>
+    <a href="https://themes.gohugo.io/themes/hugo-book/"  target="_blank" rel="noopener">
+        Hugo Themes
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>냥냥학당 개발일지 2024.07.04</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#to-do-list">To do List</a></li>
+        <li><a href="#작업-내역">작업 내역</a>
+          <ul>
+            <li><a href="#프로젝트-기획-fix">프로젝트 기획 FIX</a></li>
+            <li><a href="#앱-진행-보완에-맞추어-디자인-변경">앱 진행 보완에 맞추어 디자인 변경</a></li>
+            <li><a href="#erd-작성진행중">ERD 작성(진행중)</a></li>
+            <li><a href="#sql문-작성진행중">SQL문 작성(진행중)</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+<article class="markdown book-post">
+  <h1>
+    <a href="/posts/%EB%83%A5%EB%83%A5%ED%95%99%EB%8B%B9240704/">냥냥학당 개발일지 2024.07.04</a>
+  </h1>
+  
+  <h5>July 4, 2024</h5>
+
+
+
+  
+  <div>
+    
+      <a href="/categories/%EB%83%A5%EB%83%A5%ED%95%99%EB%8B%B9/">냥냥학당</a>
+  </div>
+  
+
+  
+  <div>
+    
+      <a href="/tags/%EA%B8%B0%ED%9A%8D/">기획</a>, 
+      <a href="/tags/%EB%94%94%EC%9E%90%EC%9D%B8/">디자인</a>, 
+      <a href="/tags/ERD/">ERD</a>, 
+      <a href="/tags/PostgreSQL/">PostgreSQL</a>
+  </div>
+  
+
+
+
+<br/>
+<hr>
+<br/>
+<h2 id="to-do-list">
+  To do List
+  <a class="anchor" href="#to-do-list">#</a>
+</h2>
+<ul>
+<li>기획
+<ul>
+<li>프로젝트 기획 FIX v</li>
+</ul>
+</li>
+<li>디자인
+<ul>
+<li>기획 보완에 맞추어 디자인 변경 v</li>
+</ul>
+</li>
+<li>DB 작업
+<ul>
+<li>ERD 작성 v</li>
+<li>SQL문 작성 v</li>
+<li>테이블 생성 및 기초데이터 입력 (내일로 연기)</li>
+</ul>
+</li>
+<li>API 작업
+<ul>
+<li>DB 연결(내일로 연기)</li>
+<li>CRUD 기능 작성 및 확인(내일로 연기)</li>
+</ul>
+</li>
+</ul>
+<br/>
+<hr>
+<br/>
+<h2 id="작업-내역">
+  작업 내역
+  <a class="anchor" href="#%ec%9e%91%ec%97%85-%eb%82%b4%ec%97%ad">#</a>
+</h2>
+<h3 id="프로젝트-기획-fix">
+  프로젝트 기획 FIX
+  <a class="anchor" href="#%ed%94%84%eb%a1%9c%ec%a0%9d%ed%8a%b8-%ea%b8%b0%ed%9a%8d-fix">#</a>
+</h3>
+<ul>
+<li>문서화 작업
+<ul>
+<li>컨셉, 기능 등을 문서화</li>
+</ul>
+</li>
+</ul>
+<br/>
+<h3 id="앱-진행-보완에-맞추어-디자인-변경">
+  앱 진행 보완에 맞추어 디자인 변경
+  <a class="anchor" href="#%ec%95%b1-%ec%a7%84%ed%96%89-%eb%b3%b4%ec%99%84%ec%97%90-%eb%a7%9e%ec%b6%94%ec%96%b4-%eb%94%94%ec%9e%90%ec%9d%b8-%eb%b3%80%ea%b2%bd">#</a>
+</h3>
+<ul>
+<li>화면 구성 작업
+<ul>
+<li>요소들의 구성을 재배치</li>
+</ul>
+</li>
+</ul>
+<br/>
+<h3 id="erd-작성진행중">
+  ERD 작성(진행중)
+  <a class="anchor" href="#erd-%ec%9e%91%ec%84%b1%ec%a7%84%ed%96%89%ec%a4%91">#</a>
+</h3>
+<ul>
+<li>기능정의에 맞는 ERD 작성(진행중)</li>
+<li>개체관계도 작성(진행중)</li>
+<li>테이블 정의서 작성(진행중)</li>
+</ul>
+<br/>
+<h3 id="sql문-작성진행중">
+  SQL문 작성(진행중)
+  <a class="anchor" href="#sql%eb%ac%b8-%ec%9e%91%ec%84%b1%ec%a7%84%ed%96%89%ec%a4%91">#</a>
+</h3>
+<ul>
+<li>테이블 정의서에 맞는 SQL문 정리</li>
+</ul>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#to-do-list">To do List</a></li>
+        <li><a href="#작업-내역">작업 내역</a>
+          <ul>
+            <li><a href="#프로젝트-기획-fix">프로젝트 기획 FIX</a></li>
+            <li><a href="#앱-진행-보완에-맞추어-디자인-변경">앱 진행 보완에 맞추어 디자인 변경</a></li>
+            <li><a href="#erd-작성진행중">ERD 작성(진행중)</a></li>
+            <li><a href="#sql문-작성진행중">SQL문 작성(진행중)</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
